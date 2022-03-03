@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "VT323", monospace;
-  font-size: 1.25em;
+  font-size: 1em;
   overflow: hidden;
   margin: 0;
   color: #a0a2ae;
@@ -506,7 +506,7 @@ span.blue {
 
 @media screen and (max-width: 40em) {
   .btn--search-close {
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .search {
     padding: 10em 0.5em;
@@ -532,5 +532,13 @@ span.blue {
     display: block;
     margin: 0 auto 1em;
     text-align: center;
+  }
+  .home_container h2 {
+    font-size: 2em;
+    top: 20%;
+  }
+  .home_container p {
+    font-size: 1em;
+    top: 30%;
   }
 }

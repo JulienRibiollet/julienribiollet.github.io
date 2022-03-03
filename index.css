@@ -541,4 +541,10 @@ span.blue {
     font-size: 1em;
     top: 30%;
   }
+
+  @keyframes typing {
+    from {
+      white-space: normal;
+    }
+  }
 }

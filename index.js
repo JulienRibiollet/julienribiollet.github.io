@@ -16,6 +16,8 @@ function Directory(name, files, hidden_files) {
   this.hidden_files = hidden_files;
 }
 
+audio = new Audio();
+
 root = new Directory("", [], [".hackademint.sh"]);
 
 documents = new Directory(
@@ -192,7 +194,6 @@ ending = [false, false, false, false];
   }
 
   function play(curDir, fileName) {
-    audio.pause();
     var terminal_div = document.getElementsByClassName("terminal");
     var mes = document.createElement("p");
     if (
@@ -201,7 +202,8 @@ ending = [false, false, false, false];
     ) {
       var url = "./res/audio/" + fileName;
       if (audioList.includes(fileName)) {
-        audio = new Audio(url);
+        audio.src = url;
+        audio.load();
         audio.play();
         mes.innerHTML = "Playing : " + fileName;
         if (fileName == "ma_musique_préférée.mp3") {

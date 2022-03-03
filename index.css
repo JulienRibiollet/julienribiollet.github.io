@@ -192,7 +192,6 @@ span.blue {
   width: 0;
   height: 0;
   margin: 0;
-  white-space: nowrap;
 }
 
 .search__form::before {
@@ -467,6 +466,9 @@ span.blue {
   }
   99% {
     white-space: nowrap;
+  }
+  to {
+    white-space: normal;
   }
 }
 

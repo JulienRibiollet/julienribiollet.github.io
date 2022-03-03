@@ -185,7 +185,7 @@ span.blue {
   width: 0;
   height: 0;
   margin: 0;
-  /*white-space: nowrap;*/
+  white-space: normal;
 }
 
 .search__form::before {
@@ -499,7 +499,7 @@ span.blue {
     font-size: 1.25em;
   }
   .search {
-    padding: 0.5em;
+    padding: 4em 0.5em;
   }
 }
 @media screen and (max-width: 40em) {

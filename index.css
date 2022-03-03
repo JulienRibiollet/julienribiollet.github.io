@@ -506,7 +506,7 @@ span.blue {
     font-size: 1.25em;
   }
   .search {
-    padding: 4em 0.5em;
+    padding: 10em 0.5em;
   }
 }
 @media screen and (max-width: 40em) {

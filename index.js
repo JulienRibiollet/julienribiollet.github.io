@@ -192,6 +192,7 @@ ending = [false, false, false, false];
   }
 
   function play(curDir, fileName) {
+    audio.pause();
     var terminal_div = document.getElementsByClassName("terminal");
     var mes = document.createElement("p");
     if (

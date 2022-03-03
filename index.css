@@ -396,6 +396,7 @@ span.blue {
   left: 0;
   right: 0;
   background-color: #000;
+  overflow-y: auto;
   z-index: 9999;
   -webkit-animation: move 1s; /* Safari 4+ */
   -moz-animation: move 1s; /* Fx 5+ */
@@ -403,6 +404,8 @@ span.blue {
   animation: move 1s; /* IE 10+, Fx 29+ */
 }
 .home_container {
+  width: 100%;
+  height: auto;
   animation-delay: 1s;
   -webkit-animation: show 1s; /* Safari 4+ */
   -moz-animation: show 1s; /* Fx 5+ */
@@ -420,7 +423,7 @@ span.blue {
 }
 .home_container h2 {
   position: absolute;
-  top: 35%;
+  top: 20%;
   left: 0;
   right: 0;
   text-align: center;
@@ -430,7 +433,7 @@ span.blue {
   padding-left: 50px;
   padding-right: 50px;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 0;
   right: 0;
   text-align: center;
